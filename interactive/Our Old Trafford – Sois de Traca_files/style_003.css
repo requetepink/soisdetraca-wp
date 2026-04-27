@@ -1,0 +1,369 @@
+/*
+ Theme Name:     Maker Child
+ Theme URI:      http://www.soisdetraca.com
+ Description:    a new Theme for Sois de Traca
+ Author:         Sois de Traca
+ Author URI:     http://www.soisdetraca.com
+ Template:       maker
+ Version:        0.1
+*/
+ 
+/**/
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+/*html {
+	font-size: 12px;
+}*/
+/*h1 {
+	font-weight: normal;
+}*/
+
+/* Header */
+
+/* Projects in portfolio*/
+
+
+.project:hover .project-header,
+	.project:active .project-header {
+		opacity: 1;
+		transition: .4s ease;
+	}
+.project-header {
+		background: #f8f8f8;
+
+	}
+
+
+
+
+/*.project-title a{
+	font-size: 16px;
+}
+
+.project-categories a{
+	color: #909090;
+	font-size: 12.5px;
+}*/
+
+/* Menu color*/
+/*
+.main-navigation a {
+	padding: 0.75em 1.75em 0.75em 1.75em;
+}*/
+/**/
+/*
+.main-navigation a:hover,
+.main-navigation a:focus,
+.main-navigation a:active {
+	color: #ff697d;
+}*/
+
+
+/**
+Social Media
+*/
+
+div.getintouch{
+	margin-top:60px;
+	float:left;
+}
+
+
+/*.left {
+    width: 33%;
+    min-width:200px;
+}
+
+.middle {
+    width: 33%;
+    min-width:200px;
+}
+.right {
+    width: 33%;
+    min-width:200px;
+}*/
+
+
+div.socialdiv {
+    margin-top:10px;
+    padding:0px;
+    display: block;
+} 
+
+div.socialdiv img{
+	height: 26px;
+	width: 26px;
+
+}
+div.socialdiv a{
+	padding-right: 16px;
+	float:left;
+}
+
+
+
+/* footer copyright info -> centered in screen*/
+/*
+.site-info{
+	width: 100%;
+	float: center;
+	text-align:center;
+	margin: 40px 0 0 0;
+}*/
+
+
+
+/* header */
+
+
+
+.site-branding {
+   max-width:400px;
+}
+
+
+/*
+.site-title{
+	padding: 0 0;
+}*/
+
+/*
+.site-branding h1{
+	font-size: 36px;
+	line-height: 36px; 
+
+  
+}
+
+.site-branding a:hover,
+.site-branding a:focus,
+.site-branding a:active {
+	color: #bebebe;
+ 	text-decoration: none;
+}*/
+
+/*
+.featured{
+	background-color:#fafafb;
+	padding: 20px 20px 20px 20px;
+}
+*/
+
+/* Nuevas cositas */
+
+.site-title {
+	clear: both;
+	margin-top: 0;
+	margin-bottom: 0; 
+	padding-top: 0em;
+	font-family: 'Open Sans',Helvetica, Arial, sans-serif;
+	font-size: 3rem;
+	font-weight: 300;
+	line-height: 3rem;
+}
+
+.site-header {
+		/*padding: 3em 0 3em 0;*/
+		padding: 2.5em 0 1.5em 0;
+		margin-bottom: 0em;
+	}
+
+
+
+.main-navigation ul {
+		/*display: block;*/ /* hace que se abra el menu en dispositivos moviles?? */
+		float: right;
+		margin: 0 -0.75em;
+		/*padding: 0em 0;*/
+		list-style: none;
+	}
+
+
+/* Hacer columnas */
+.column {
+  float: left;
+}
+
+.left_onethird{
+  width: 33.3%;
+  padding: 0px 10px 0px 0px; 
+}
+
+.middle_onethird {
+  width: 33.3%;
+  padding: 0px 5px 0px 5px; 
+}
+
+.right_onethird{
+  width: 33.3%;
+  padding: 0px 0px 0px 10px; 
+}
+
+.left_twothirds{
+  width: 66.6%;
+  padding: 0px 15px 0px 0px; 
+}
+
+.right_twothirds{
+  width: 66.6%;
+  padding: 0px 0px 0px 10px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 40px;
+}
+
+
+/* Featured Content style */
+/* Columns at home*/
+.featured_home {
+	margin-bottom: 3rem;
+}
+
+.featured_home h2 {
+	margin-top: 0rem;
+	margin-bottom: 0.5rem;
+}
+
+
+.featured_home img {
+  opacity: 1;
+  transition: .6s ease;
+  backface-visibility: hidden;
+}
+
+.featured_home img:hover{
+	opacity: 0.7;
+}
+
+.featured_home p{
+	margin-bottom: 0.5rem;
+}
+.featured_home a{
+	color:inherit;
+}
+
+.subtitle {
+	font-size:12px;
+	/*color: #f45844;*/
+	color: #4470f4;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+.featured_text {
+	font-size:14px;
+}
+.featured_text_small {
+	font-size:12px;
+}
+
+.home_main{
+	font-size:2.5rem;
+	font-weight:normal;
+	text-align: center;
+	color:#585858;
+	line-height: 1.5;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+
+/* vertical line in About */
+.verticalLine {
+  border-left: thin solid #eeeeee;
+  padding-left: 10px;
+}
+
+/* small screen */
+@media screen and (max-width: 600px) {
+	.left_onethird{
+  		width: 100%;
+  		padding: 0px 0px 0px 0px; 
+	}
+
+	.middle_onethird {
+ 		width: 100%;
+  		padding: 0px 0px 0px 0px; 
+	}
+
+	.right_onethird{
+ 		width: 100%;
+  		padding: 0px 0px 0px 0px; 
+	}
+	.left_twothirds{
+		width: 100%;
+  		padding: 0px 0px 0px 0px; 
+	}
+
+	.right_twothirds{
+  		width: 100%;
+  		padding: 0px 0px 0px 0px; 
+	}
+	
+	.featured_home {
+		margin-bottom: 2.5rem;
+	}
+
+	
+} /* end of small screen */
+
+
+
+/* Small screens*/
+@media screen and (max-width: 600px) {
+	
+	.site-header {
+		padding-top: 2rem;
+	}
+	/*.site-branding {
+    	display: inline-block;
+    	max-width: 200px;
+	}*/
+	.site-title {		
+		font-size: 2.5rem;
+		line-height: 2.5rem;
+	}	
+	.menu-toggle{
+		margin-top: 1rem;	/*2.5rem-1.5rem*/
+	}
+	
+	.home_main{
+		font-size:1.6rem;
+		font-weight:normal;
+		text-align: center;
+		line-height: 1.5;
+		margin-top: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+	
+
+}
+
+@media screen and (max-width: 600px) {
+ 	.project-header {
+		/*background: #ff697d;*/ 
+		background: #fff;
+	}
+}
+
+/* galeries columns */
+@media(max-width: 600px){
+	.gallery-columns-2 .gallery-item {
+    	width: 100%;
+	}
+}
+
+@media(max-width: 600px){
+	.gallery-columns-3 .gallery-item {
+    	width: 100%;
+	}
+	
+	
+}
+
+
